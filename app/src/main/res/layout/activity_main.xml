@@ -15,7 +15,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Do you need a good program for the weekend?"
+            android:text="@string/need_program"
             android:textSize="24sp"
             android:textColor="#02B3E4"
             android:textAlignment="center"
@@ -35,7 +35,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Where you can meet nice people"
+            android:text="@string/meet_people"
             android:textSize="20sp"
             android:textColor="#02B3E4"
             android:textAlignment="center"
@@ -52,7 +52,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Where you can enjoy a great coffee from the island of Java"
+            android:text="@string/enjoy_coffee"
             android:textSize="20sp"
             android:textColor="#02B3E4"
             android:textAlignment="center"
@@ -69,7 +69,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Where different views can meet"
+            android:text="@string/meet_views"
             android:textSize="20sp"
             android:textColor="#02B3E4"
             android:textAlignment="center"
@@ -92,7 +92,7 @@
                 android:id="@+id/text_welcome"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Welcome to Udacity!"
+                android:text="@string/welcome"
                 android:textSize="24sp"
                 android:textColor="#02B3E4"
                 android:textAlignment="center"

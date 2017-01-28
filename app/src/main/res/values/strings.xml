@@ -1,3 +1,11 @@
 <resources>
+    <!-- General -->
     <string name="app_name">Udacity Card</string>
+
+    <!-- MainActivity -->
+    <string name="need_program">Do you need a good program for the weekend?</string>
+    <string name="meet_people">Where you can meet nice people</string>
+    <string name="enjoy_coffee">Where you can enjoy a great coffee from the island of Java</string>
+    <string name="meet_views">Where different views can meet</string>
+    <string name="welcome">Welcome to Udacity!</string>
 </resources>
