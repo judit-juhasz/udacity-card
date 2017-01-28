@@ -1,17 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="name.juhasz.judit.udacitycard.MainActivity">
+    android:layout_height="match_parent" >
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
-</RelativeLayout>
+        tools:context="name.juhasz.judit.udacitycard.MainActivity"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Do you need a good program for the weekend?"
+            android:textSize="24sp"
+            android:textColor="#02B3E4"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <ImageView
+            android:src="@drawable/image_program"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Where you can meet nice people"
+            android:textSize="20sp"
+            android:textColor="#02B3E4"
+            android:textAlignment="center"
+            android:layout_margin="15dp" />
+
+        <ImageView
+            android:src="@drawable/image_talk"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Where you can enjoy a great coffee from the island of Java"
+            android:textSize="20sp"
+            android:textColor="#02B3E4"
+            android:textAlignment="center"
+            android:layout_margin="15dp"/>
+
+        <ImageView
+            android:src="@drawable/image_coffee"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Where different views can meet"
+            android:textSize="20sp"
+            android:textColor="#02B3E4"
+            android:textAlignment="center"
+            android:layout_margin="15dp"/>
+
+        <ImageView
+            android:src="@drawable/image_meet_the_views"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp">
+
+            <TextView
+                android:id="@+id/text_welcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome to Udacity!"
+                android:textSize="24sp"
+                android:textColor="#02B3E4"
+                android:textAlignment="center"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"/>
+
+            <ImageView
+                android:src="@drawable/image_udacity"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/text_welcome"/>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:src="@drawable/image_welcome"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop" />
+
+    </LinearLayout>
+
+</ScrollView>
