@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:text="@string/need_program"
             android:textSize="24sp"
-            android:textColor="#02B3E4"
+            android:textColor="@color/blueUdacity"
             android:textAlignment="center"
             android:layout_marginTop="30dp"
             android:layout_marginBottom="30dp"
@@ -37,7 +37,7 @@
             android:layout_height="wrap_content"
             android:text="@string/meet_people"
             android:textSize="20sp"
-            android:textColor="#02B3E4"
+            android:textColor="@color/blueUdacity"
             android:textAlignment="center"
             android:layout_margin="15dp" />
 
@@ -54,7 +54,7 @@
             android:layout_height="wrap_content"
             android:text="@string/enjoy_coffee"
             android:textSize="20sp"
-            android:textColor="#02B3E4"
+            android:textColor="@color/blueUdacity"
             android:textAlignment="center"
             android:layout_margin="15dp"/>
 
@@ -71,7 +71,7 @@
             android:layout_height="wrap_content"
             android:text="@string/meet_views"
             android:textSize="20sp"
-            android:textColor="#02B3E4"
+            android:textColor="@color/blueUdacity"
             android:textAlignment="center"
             android:layout_margin="15dp"/>
 
@@ -94,7 +94,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/welcome"
                 android:textSize="24sp"
-                android:textColor="#02B3E4"
+                android:textColor="@color/blueUdacity"
                 android:textAlignment="center"
                 android:layout_centerInParent="true"
                 android:layout_marginLeft="10dp"/>
