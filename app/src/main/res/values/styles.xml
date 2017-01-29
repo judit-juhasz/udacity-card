@@ -8,4 +8,28 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="NormalText">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_normal_size</item>
+        <item name="android:textColor">@color/blueUdacity</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_margin">15dp</item>n
+    </style>
+
+    <style name="CardTitle">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_bigger_size</item>
+        <item name="android:textColor">@color/blueUdacity</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="CardTitle.WrapContent">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
 </resources>
