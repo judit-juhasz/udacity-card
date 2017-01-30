@@ -15,7 +15,7 @@
         <item name="android:textSize">@dimen/text_normal_size</item>
         <item name="android:textColor">@color/blueUdacity</item>
         <item name="android:textAlignment">center</item>
-        <item name="android:layout_margin">15dp</item>n
+        <item name="android:layout_margin">@dimen/text_normal_margin</item>n
     </style>
 
     <style name="CardTitle">
