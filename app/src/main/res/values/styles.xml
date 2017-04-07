@@ -13,9 +13,9 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">@dimen/text_normal_size</item>
-        <item name="android:textColor">@color/blueUdacity</item>
-        <item name="android:textAlignment">center</item>
-        <item name="android:layout_margin">@dimen/text_normal_margin</item>n
+        <item name="android:textColor">@color/colorBlueUdacity</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">@dimen/text_normal_margin</item>
     </style>
 
     <style name="CardTitle">
@@ -23,13 +23,39 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">@dimen/text_bigger_size</item>
-        <item name="android:textColor">@color/blueUdacity</item>
-        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/colorBlueUdacity</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/title_vertical_margin</item>
+        <item name="android:layout_marginBottom">@dimen/title_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/title_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/title_horizontal_margin</item>
     </style>
 
-    <style name="CardTitle.WrapContent">
+    <style name="WelcomeText">
         <!-- Customize your theme here. -->
         <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_bigger_size</item>
+        <item name="android:textColor">@color/colorBlueUdacity</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginLeft">@dimen/welcome_text_margin</item>
     </style>
 
+    <style name="Image">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zero_height</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="UdacityLogo">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">@dimen/logo_dimensions</item>
+        <item name="android:layout_height">@dimen/logo_dimensions</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_toLeftOf">@id/text_welcome</item>
+    </style>
 </resources>

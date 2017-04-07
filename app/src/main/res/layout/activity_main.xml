@@ -14,19 +14,11 @@
 
         <TextView
             style="@style/CardTitle"
-            android:text="@string/need_program"
-            android:layout_marginTop="@dimen/title_vertical_margin"
-            android:layout_marginBottom="@dimen/title_vertical_margin"
-            android:layout_marginLeft="@dimen/title_horizontal_margin"
-            android:layout_marginRight="@dimen/title_horizontal_margin"/>
+            android:text="@string/need_program" />
 
         <ImageView
             android:src="@drawable/image_program"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:adjustViewBounds="true"
-            android:scaleType="centerCrop" />
+            style="@style/Image" />
 
         <TextView
             style="@style/NormalText"
@@ -34,11 +26,7 @@
 
         <ImageView
             android:src="@drawable/image_talk"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:adjustViewBounds="true"
-            android:scaleType="centerCrop" />
+            style="@style/Image" />
 
         <TextView
             style="@style/NormalText"
@@ -46,11 +34,7 @@
 
         <ImageView
             android:src="@drawable/image_coffee"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:adjustViewBounds="true"
-            android:scaleType="centerCrop" />
+            style="@style/Image" />
 
         <TextView
             style="@style/NormalText"
@@ -58,11 +42,7 @@
 
         <ImageView
             android:src="@drawable/image_meet_the_views"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:adjustViewBounds="true"
-            android:scaleType="centerCrop" />
+            style="@style/Image" />
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -71,27 +51,18 @@
 
             <TextView
                 android:id="@+id/text_welcome"
-                style="@style/CardTitle.WrapContent"
-                android:text="@string/welcome"
-                android:layout_centerInParent="true"
-                android:layout_marginLeft="@dimen/welcome_text_margin"/>
+                style="@style/WelcomeText"
+                android:text="@string/welcome" />
 
             <ImageView
                 android:src="@drawable/image_udacity"
-                android:layout_width="@dimen/logo_dimensions"
-                android:layout_height="@dimen/logo_dimensions"
-                android:layout_centerVertical="true"
-                android:layout_toLeftOf="@id/text_welcome"/>
+                style="@style/UdacityLogo" />
 
         </RelativeLayout>
 
         <ImageView
             android:src="@drawable/image_welcome"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:adjustViewBounds="true"
-            android:scaleType="centerCrop" />
+            style="@style/Image" />
 
     </LinearLayout>
 

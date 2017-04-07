@@ -11,4 +11,5 @@
     <dimen name="title_vertical_margin">30dp</dimen>
     <dimen name="welcome_text_margin">10dp</dimen>
     <dimen name="relative_layout_margin">15dp</dimen>
+    <dimen name="zero_height">0dp</dimen>
 </resources>
