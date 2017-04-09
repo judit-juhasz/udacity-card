@@ -1,68 +1,136 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="name.juhasz.judit.udacitycard.MainActivity"
+    android:id="@+id/activity_main"
+    style="@style/ScrollViewStyle">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/activity_main"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:context="name.juhasz.judit.udacitycard.MainActivity"
-        android:orientation="vertical">
+    <LinearLayout
+        style="@style/MainLinearLayoutStyle">
 
-        <TextView
-            style="@style/CardTitle"
-            android:text="@string/need_program" />
+        <android.support.v7.widget.CardView
+            style="@style/TitleCardViewStyle"
+            card_view:cardBackgroundColor="@color/colorLightBackground"
+            card_view:cardCornerRadius="@dimen/card_corner_radius"
+            card_view:cardPreventCornerOverlap="true">
 
-        <ImageView
-            android:src="@drawable/image_program"
-            style="@style/Image" />
+            <LinearLayout
+                style="@style/LinearLayoutVerticalStyle">
 
-        <TextView
-            style="@style/NormalText"
-            android:text="@string/meet_people" />
+                <TextView
+                    style="@style/TitleText"
+                    android:text="@string/need_program" />
 
-        <ImageView
-            android:src="@drawable/image_talk"
-            style="@style/Image" />
+                <ImageView
+                    android:src="@drawable/image_program"
+                    style="@style/Image" />
 
-        <TextView
-            style="@style/NormalText"
-            android:text="@string/enjoy_coffee" />
+            </LinearLayout>
 
-        <ImageView
-            android:src="@drawable/image_coffee"
-            style="@style/Image" />
+        </android.support.v7.widget.CardView>
 
-        <TextView
-            style="@style/NormalText"
-            android:text="@string/meet_views" />
+        <android.support.v7.widget.CardView
+            style="@style/CardViewStyle"
+            card_view:cardBackgroundColor="@color/colorLightBackground"
+            card_view:cardCornerRadius="@dimen/card_corner_radius"
+            card_view:cardPreventCornerOverlap="true">
 
-        <ImageView
-            android:src="@drawable/image_meet_the_views"
-            style="@style/Image" />
+            <LinearLayout
+                style="@style/LinearLayoutVerticalStyle">
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/relative_layout_margin">
+                <TextView
+                    style="@style/NormalText"
+                    android:text="@string/meet_people" />
 
-            <TextView
-                android:id="@+id/text_welcome"
-                style="@style/WelcomeText"
-                android:text="@string/welcome" />
+                <ImageView
+                    android:src="@drawable/image_talk"
+                    style="@style/Image" />
 
-            <ImageView
-                android:src="@drawable/image_udacity"
-                style="@style/UdacityLogo" />
+            </LinearLayout>
 
-        </RelativeLayout>
+        </android.support.v7.widget.CardView>
 
-        <ImageView
-            android:src="@drawable/image_welcome"
-            style="@style/Image" />
+        <android.support.v7.widget.CardView
+            style="@style/CardViewStyle"
+            card_view:cardBackgroundColor="@color/colorLightBackground"
+            card_view:cardCornerRadius="@dimen/card_corner_radius"
+            card_view:cardPreventCornerOverlap="true"
+            card_view:cardUseCompatPadding="true"
+            card_view:contentPaddingLeft="@dimen/card_view_padding"
+            card_view:contentPaddingRight="@dimen/card_view_padding">
+
+            <LinearLayout
+                style="@style/LinearLayoutVerticalStyle">
+
+                <TextView
+                    style="@style/NormalText"
+                    android:text="@string/enjoy_coffee" />
+
+                <ImageView
+                    android:src="@drawable/image_coffee"
+                    style="@style/Image" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            style="@style/CardViewStyle"
+            card_view:cardBackgroundColor="@color/colorLightBackground"
+            card_view:cardCornerRadius="@dimen/card_corner_radius"
+            card_view:cardPreventCornerOverlap="true"
+            card_view:cardUseCompatPadding="true"
+            card_view:contentPaddingLeft="@dimen/card_view_padding"
+            card_view:contentPaddingRight="@dimen/card_view_padding">
+
+            <LinearLayout
+                style="@style/LinearLayoutVerticalStyle">
+
+                <TextView
+                    style="@style/NormalText"
+                    android:text="@string/meet_views" />
+
+                <ImageView
+                    android:src="@drawable/image_meet_the_views"
+                    style="@style/Image" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            style="@style/WelcomeCardViewStyle"
+            card_view:cardBackgroundColor="@color/colorLightBackground"
+            card_view:cardCornerRadius="@dimen/card_corner_radius"
+            card_view:cardPreventCornerOverlap="true">
+
+            <LinearLayout
+                style="@style/LinearLayoutVerticalStyle">
+
+                <RelativeLayout
+                    style="@style/RelativeLayoutStyle">
+
+                    <TextView
+                        android:id="@+id/text_welcome"
+                        style="@style/WelcomeText"
+                        android:text="@string/welcome" />
+
+                    <ImageView
+                        android:src="@drawable/image_udacity"
+                        style="@style/UdacityLogo" />
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:src="@drawable/image_welcome"
+                    style="@style/Image" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
 
     </LinearLayout>
 

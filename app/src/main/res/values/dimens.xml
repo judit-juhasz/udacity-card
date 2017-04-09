@@ -3,13 +3,24 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
 
+
     <dimen name="text_normal_size">20sp</dimen>
-    <dimen name="text_bigger_size">24sp</dimen>
+    <dimen name="text_bigger_size">22sp</dimen>
+
     <dimen name="logo_dimensions">40dp</dimen>
+
     <dimen name="text_normal_margin">15dp</dimen>
     <dimen name="title_horizontal_margin">10dp</dimen>
-    <dimen name="title_vertical_margin">30dp</dimen>
+    <dimen name="title_vertical_margin">20dp</dimen>
     <dimen name="welcome_text_margin">10dp</dimen>
     <dimen name="relative_layout_margin">15dp</dimen>
+    <dimen name="linear_layout_margin">8dp</dimen>
+
+    <dimen name="card_view_margin_small">15dp</dimen>
+    <dimen name="card_view_margin_normal">25dp</dimen>
+
+    <dimen name="card_view_padding">1dp</dimen>
+
     <dimen name="zero_height">0dp</dimen>
+    <dimen name="card_corner_radius">4dp</dimen>
 </resources>
