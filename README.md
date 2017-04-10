@@ -1,11 +1,13 @@
 # Udacity Card
 
-A simple Card App for my Udacity/Google Scholarship for Android Development for Beginners. **For education purposes only!**
+A Simple Card App for my Udacity/Google Scholarship for Android Development for Beginners. **For education purposes only!**
 
 ## Demo
 
+### Pictures
+
+![Demo screeens](https://c1.staticflickr.com/3/2936/33821427811_495f99f06b_c.jpg)
+
 ### Videos (click on them)
 
-[![Demo vertical](https://img.youtube.com/vi/_ftb1Yxj17o/0.jpg)](http://www.youtube.com/watch?v=_ftb1Yxj17o)
-
-[![Demo horizontal](https://img.youtube.com/vi/jSl5HqtFqFw/0.jpg)](http://www.youtube.com/watch?v=jSl5HqtFqFw)
+[![Demo video](https://img.youtube.com/vi/nmX5l-yXUig/0.jpg)](http://www.youtube.com/watch?v=nmX5l-yXUig)
