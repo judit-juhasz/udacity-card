@@ -6,8 +6,10 @@ A Simple Card App for my Udacity/Google Scholarship for Android Development for 
 
 ### Pictures
 
-![Demo screeens](https://c1.staticflickr.com/3/2936/33821427811_495f99f06b_c.jpg)
+![Demo screeens 1](https://c1.staticflickr.com/3/2837/33821466251_3940e696f4_c.jpg)
 
-### Videos (click on them)
+![Demo screeens 2](https://c1.staticflickr.com/3/2881/33138369783_f3f026d10b_c.jpg)
 
-[![Demo video](https://img.youtube.com/vi/nmX5l-yXUig/0.jpg)](http://www.youtube.com/watch?v=nmX5l-yXUig)
+### Videos (click on it)
+
+[![Demo video](https://img.youtube.com/vi/YzEYflVtO-M/0.jpg)](http://www.youtube.com/watch?v=YzEYflVtO-M)
